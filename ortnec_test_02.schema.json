@@ -1,0 +1,180 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "items": {
+    "$id": "http://example.com/example.json/items",
+    "type": "object",
+    "properties": {
+      "id": {
+        "$id": "http://example.com/example.json/items/properties/id",
+        "type": "integer",
+        "title": "The Id Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "name": {
+        "$id": "http://example.com/example.json/items/properties/name",
+        "type": "string",
+        "title": "The Name Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "Leanne Graham"
+        ]
+      },
+      "username": {
+        "$id": "http://example.com/example.json/items/properties/username",
+        "type": "string",
+        "title": "The Username Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "Bret"
+        ]
+      },
+      "email": {
+        "$id": "http://example.com/example.json/items/properties/email",
+        "type": "string",
+        "title": "The Email Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "Sincere@april.biz"
+        ]
+      },
+      "address": {
+        "$id": "http://example.com/example.json/items/properties/address",
+        "type": "object",
+        "properties": {
+          "street": {
+            "$id": "http://example.com/example.json/items/properties/address/properties/street",
+            "type": "string",
+            "title": "The Street Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Kulas Light"
+            ]
+          },
+          "suite": {
+            "$id": "http://example.com/example.json/items/properties/address/properties/suite",
+            "type": "string",
+            "title": "The Suite Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Apt. 556"
+            ]
+          },
+          "city": {
+            "$id": "http://example.com/example.json/items/properties/address/properties/city",
+            "type": "string",
+            "title": "The City Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Gwenborough"
+            ]
+          },
+          "zipcode": {
+            "$id": "http://example.com/example.json/items/properties/address/properties/zipcode",
+            "type": "string",
+            "title": "The Zipcode Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "92998-3874"
+            ]
+          },
+          "geo": {
+            "$id": "http://example.com/example.json/items/properties/address/properties/geo",
+            "type": "object",
+            "properties": {
+              "lat": {
+                "$id": "http://example.com/example.json/items/properties/address/properties/geo/properties/lat",
+                "type": "string",
+                "title": "The Lat Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "-37.3159"
+                ]
+              },
+              "lng": {
+                "$id": "http://example.com/example.json/items/properties/address/properties/geo/properties/lng",
+                "type": "string",
+                "title": "The Lng Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "81.1496"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "phone": {
+        "$id": "http://example.com/example.json/items/properties/phone",
+        "type": "string",
+        "title": "The Phone Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "1-770-736-8031 x56442"
+        ]
+      },
+      "website": {
+        "$id": "http://example.com/example.json/items/properties/website",
+        "type": "string",
+        "title": "The Website Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "hildegard.org"
+        ]
+      },
+      "company": {
+        "$id": "http://example.com/example.json/items/properties/company",
+        "type": "object",
+        "properties": {
+          "name": {
+            "$id": "http://example.com/example.json/items/properties/company/properties/name",
+            "type": "string",
+            "title": "The Name Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Romaguera-Crona"
+            ]
+          },
+          "catchPhrase": {
+            "$id": "http://example.com/example.json/items/properties/company/properties/catchPhrase",
+            "type": "string",
+            "title": "The Catchphrase Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Multi-layered client-server neural-net"
+            ]
+          },
+          "bs": {
+            "$id": "http://example.com/example.json/items/properties/company/properties/bs",
+            "type": "string",
+            "title": "The Bs Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "harness real-time e-markets"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
